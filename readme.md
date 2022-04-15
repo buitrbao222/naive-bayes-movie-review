@@ -28,3 +28,10 @@ https://www.kaggle.com/competitions/word2vec-nlp-tutorial/data
    * Open `.ipynb` file in VS Code (you must have Python extension installed)
 
 3. After you're done, run `deactivate` to turn off the virtual environment.
+
+# Download NLTK data
+Run the code for ```nltk.download``` to download NLTK data
+Or run ```python -m nltk.downloader id``` to download the dataset named ```id```
+Here we use 2 datasets:
+   * ```wordnet``` for lemmatizing
+   * ```stopword``` and ```omw-1.4``` for removing stop words
